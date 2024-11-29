@@ -1,14 +1,14 @@
 public class Hoge {
+	private static final String HOGE = 'hoge';
 	public Hoge() {
 
 	}
 
 	/**
-	 * hogeだったらtrueを返す
+	 * 引数がhogeだったらtrueを返す
 	 */
 	@testVisible
-	private Boolean isHoge() {
-		// TODO false条件追加
-		return true;
+	private Boolean isHoge(String str) {
+		return HOGE.equals(str);
 	}
 }
