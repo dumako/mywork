@@ -4,6 +4,8 @@ public class Hoge {
 		System.debug('Hoge constructor');
 		Bar bar = new Bar();
 		System.debug('isBar: ' + bar.isBar());
+		Foo foo = new Foo();
+		System.debug('isFoo: ' + foo.isFoo());
 	}
 
 	/**
