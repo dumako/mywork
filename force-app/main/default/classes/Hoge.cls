@@ -2,6 +2,8 @@ public class Hoge {
 	private static final String HOGE = 'hoge';
 	public Hoge() {
 		System.debug('Hoge constructor');
+		Foo foo = new Foo();
+		System.debug('isFoo: ' + foo.isFoo());
 	}
 
 	/**
